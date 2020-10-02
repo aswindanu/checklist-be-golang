@@ -1,0 +1,27 @@
+main
+disbursement
+config.yaml
+docker-compose.yaml
+vendor/
+vendor-new/
+/bin
+/pkg
+/src
+
+.DS_Store
+*.orig
+
+# test & coverage report
+coverage.out
+govet-report.out
+test-report.json
+
+# data decrypt-an yg kadang suka kebawa
+awsconfig
+awscredentials
+
+#vian Testing
+configDocker.yaml
+configLocal.yaml
+tmp/
+cover.html

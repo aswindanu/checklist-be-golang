@@ -1,0 +1,36 @@
+app_name: Try Echo
+app_version: 0.0.1
+app_env: dev
+
+dev:
+  adapter: postgre
+  database: try_echo
+  username: yourusername
+  password: yourpassword
+  host: 0.0.0.0     #defaults to 127.0.0.1
+  port: 5432
+  idle_conns: 10
+  open_conns: 100
+  sslmode: disable
+
+staging:
+  adapter: postgre
+  database: try_echo
+  username: yourusername
+  password: yourpassword
+  host: 0.0.0.0     #defaults to 127.0.0.1
+  port: 5432
+  idle_conns: 10
+  open_conns: 100
+  sslmode: disable
+
+production:
+  adapter: postgre
+  database: try_echo
+  username: yourusername
+  password: yourpassword
+  host: 0.0.0.0     #defaults to 127.0.0.1
+  port: 5432
+  idle_conns: 10
+  open_conns: 100
+  sslmode: disable
