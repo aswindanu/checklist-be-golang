@@ -1,5 +1,3 @@
-#### This code was edited. Source credited n copyright: Faviansyah Arianda Pallas (https://github.com/favians)
-
 # SIMPLE REST API WITH ECHO FRAMEWORK
 
 Setup REST API with [Echo Framework](https://echo.labstack.com/guide/migration), Postgre and Messaging.
@@ -98,6 +96,8 @@ Faviansyah-MacBook-Air:disbursement Faviansyah$ docker-compose ps
 ```
 * Test with your REST API tools for GET 0.0.0.0:8000/users, and you should see some JSON response.
 
+## Deployment Heroku
+Step to deployment heroku : [link](https://medium.com/@freeformz/hello-world-with-go-heroku-38295332f07b)
 
 ## References When Building This Project
 
